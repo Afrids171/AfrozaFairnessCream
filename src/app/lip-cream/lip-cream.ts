@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-lip-cream',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './lip-cream.html',
   styleUrl: './lip-cream.css',
 })
